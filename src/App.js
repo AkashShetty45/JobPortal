@@ -6,6 +6,8 @@ import About from './Components/About';
 import Contact from './Components/Contact';
 import Navbar from './Components/Navbar';
 import LoginSignup from './Components/login';
+import Profile from './Components/Profile';
+
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
           <Route path="/about" Component={About} />
           <Route path="/contact" Component={Contact} />
           <Route path="/Login" Component={LoginSignup}/>
+          <Route path='/profile' Component={Profile}/>
         </Routes>
       </div>
     </Router>

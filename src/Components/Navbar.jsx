@@ -12,6 +12,7 @@ const Navbar = () => {
         <Link to="/Login">Login</Link>
         <Link to="/about">About Us</Link>
         <Link to="/contact">Contact</Link>
+        <Link to={"/profile"}>Profile</Link>
 
       </div>
     </nav>
